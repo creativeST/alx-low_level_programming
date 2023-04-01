@@ -17,7 +17,7 @@ char *rot13(char *s)
 		{	
 			if (s[i] == storeh[j])
 			{
-				s[i] = store1[j];
+				s[i] = storel[j];
 				break;
 
 			}

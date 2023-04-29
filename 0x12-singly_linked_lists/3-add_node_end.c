@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <stddef.h>
+#include <string.h>
 /**
  * add_node_end - adds a node to the end of the list
  * @head: linked list

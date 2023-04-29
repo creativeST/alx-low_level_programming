@@ -1,4 +1,5 @@
 #include "lists.h"
+#include <stdlib.h>
 #include <string.h>
 /**
  * add_node - add a node to the beginnig of the list

@@ -1,20 +1,22 @@
 #include "main.h"
 
 /**
- * factorial - factorial n
- * @n: integer arams
+ * _pow_recursion - pow recursion
+ * @x: integer params
+ * @y: integer paramtr
  * Return: recursion
  */
 
-int factorial(int n)
+
+int _pow_recursion(int x, int y)
 {
-    if (n < 0)
+    if (y < 0)
     {
         return (-1);
     }
-    if (n == 1)
+    if (y == 0)
     {
         return (1);
     }
-    return (n * factorial(n - 1));
+    return (x * _pow_recursion(x, y - 1));
 }
